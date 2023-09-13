@@ -1,0 +1,63 @@
+body {
+    background-color: aliceblue;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    width: 350px;
+    height: 550px;
+    background-color: aliceblue;
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    box-shadow: 2px 0px 10px 0px #000000;
+}
+
+.container .containerInfo {
+    display: inline-block;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.containerInfo i {
+    font-size: 45px;
+    padding: 0.5rem;
+    color: yellowgreen;
+    margin-right: 1rem;
+    border-radius: 30%
+}
+
+.toDoList-Container {
+width: 100%;
+height: 80%;
+}
+
+.toDoList-Container .inputField {
+    border-radius: 1rem;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between ;
+    box-shadow: 2px 0px 10px 0px #000000;
+    border: 1px solid black;
+}
+
+input {
+    width: 80%;
+    height: 40px;
+    outline: none;
+    border: none;
+}
+
+.inputField input[type=”text”] {
+    margin-left: 1rem;
+  }
+
+  .inputField i {
+    font-size: 20px;
+    margin-right: 1rem;
+  }
