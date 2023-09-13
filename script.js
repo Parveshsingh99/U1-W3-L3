@@ -1,8 +1,9 @@
 const addList = document.querySelector('.list');
-const addBtn = document.querySelector('.fas .fa-clipboard-list')
-const inputField = document.getElementById('#input');
-
+const addBtn = document.querySelector('.fas.fa-calendar-plus')
+const inputField = document.getElementById('input');
+console.log(addBtn)
 addBtn.addEventListener('click',()=>{
+    console.log("buttonclick")
          
     const createElement = document.createElement('div');
     createElement.classList.add('create-div');
@@ -16,6 +17,7 @@ addBtn.addEventListener('click',()=>{
     })
 
     createElement.addEventListener('dblclick', ()=>{
+        console.log("cisono")
         addList.removeChild(createElement);
     })
 
